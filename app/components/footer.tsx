@@ -3,7 +3,7 @@ import { SocialIcon } from 'react-social-icons';
 
 export default function footer() {
   return (
-    <footer className='absolute bottom-0 left-0 right-0'>
+    <footer>
       <div className='flex w-full p-4 text-center text-white text-3xl  gap-10 justify-between'>
         <div className='w-1/4 p-4'>
           <img src='/logo2.png' alt='Logo' width={150} height={150} />
@@ -55,16 +55,16 @@ export default function footer() {
 
       <div className='flex gap-2 mx-auto m-10 w-full justify-center'>
         <div className='icon'>
-          <SocialIcon fallback='facebook' bgColor='#333' fgColor='#fff' />
+          <SocialIcon network='facebook' bgColor='#333' fgColor='#fff' />
         </div>
         <div className='text-white rounded-md text-xl'>
-          <SocialIcon fallback='twitter' bgColor='#333' fgColor='#fff' />
+          <SocialIcon network='twitter' bgColor='#333' fgColor='#fff' />
         </div>
         <div className='text-white rounded-md text-xl'>
-          <SocialIcon fallback='tiktok' bgColor='#333' fgColor='#fff' />
+          <SocialIcon network='tiktok' bgColor='#333' fgColor='#fff' />
         </div>
         <div className='text-white rounded-md text-xl'>
-          <SocialIcon fallback='youtube' bgColor='#333' fgColor='#fff' />
+          <SocialIcon network='youtube' bgColor='#333' fgColor='#fff' />
         </div>
       </div>
     </footer>
