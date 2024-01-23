@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* GENERAL STYLES */
+body {
+  background: #fff;
+}
+
+main {
+
+}
