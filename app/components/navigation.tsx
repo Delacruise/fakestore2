@@ -9,7 +9,6 @@ export default function navigation() {
 
   const checkActiveMenu = () => {
     var pathName = window.location.pathname;
-    console.log('Pathname: ' + pathName);
     if (pathName.includes('product')) {
       return 'products';
     }
@@ -33,7 +32,7 @@ export default function navigation() {
 
   return (
     <header>
-      <nav className='flex p-4 items-center w-full'>
+      <nav className='flex p-4 items-center w-full border'>
         <a href='/' className='p-2 mr-4 inline-flex items-center'>
           <img src='/logo3.png' alt='Logo' width={200} height={50} />
         </a>
