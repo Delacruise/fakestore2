@@ -3,7 +3,7 @@ import { SocialIcon } from 'react-social-icons';
 
 export default function footer() {
   return (
-    <footer>
+    <footer className='mt-16 border-t'>
       <div className='flex w-full p-4 text-center text-white text-3xl  gap-10 justify-between'>
         <div className='w-1/4 p-4'>
           <img src='/logo2.png' alt='Logo' width={150} height={150} />
